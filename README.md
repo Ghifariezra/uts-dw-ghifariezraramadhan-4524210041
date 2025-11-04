@@ -91,7 +91,7 @@ Proyek menggunakan struktur HTML semantik:
 
 ## 📸 Preview
 
-![Preview Tampilan](cb2f1eb1-d63b-4de7-b26b-31c3a4d19bf2.png)
+![Preview Tampilan](https://ghifariezra.github.io/uts-dw-ghifariezraramadhan-4524210041/)
 
 ---
 
