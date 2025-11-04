@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Panel Kontrol -->
+        <section class="panel-kontrol">
+            <div class="wrapper-title">
+                <h1>Form Data CV</h2>
+                    <button class="preview-button">
+                        Show Preview
+                    </button>
+            </div>
+            <form id="cvForm">
+                <div class="wrapper-field">
+                    <div class="wrapper-input">
+                        <label for="name">Nama:</label>
+                        <input type="text" id="name" placeholder="Masukkan nama..." />
+                    </div>
+
+                    <div class="wrapper-input">
+                        <label>Pendidikan:</label>
+                        <input type="text" id="education" placeholder="Contoh: S1 Informatika, UNY" />
+                    </div>
+
+                    <div class="wrapper-input">
+                        <label>Pengalaman:</label>
+                        <textarea id="experience" placeholder="Tuliskan pengalaman..."></textarea>
+                    </div>
+
+                    <div class="wrapper-input">
+                        <label>Keahlian:</label>
+                        <input type="text" id="skills" placeholder="Contoh: HTML, CSS, JavaScript" />
+                    </div>
+
+                    <div class="wrapper-input">
+                        <label>Foto Profil (URL):</label>
+                        <input type="text" id="photo" placeholder="Masukkan URL foto..." />
+                    </div>
+
+                    <button type="reset" class="reset-button">
+                        Reset
+                    </button>
+                </div>
+            </form>
+        </section>
+
+        <section class="area-pratinjau">
+            <h2>Preview CV</h2>
+            <div class="cv-preview">
+                <img id="preview-photo" src="" alt="Foto Profil" />
+                <h3 id="preview-name"></h3>
+                <p class="wrapper-input">
+                    <strong>Pendidikan:</strong>
+                    <span id="preview-education"></span>
+                </p>
+                <p class="wrapper-input">
+                    <strong>Pengalaman:</strong>
+                    <span id="preview-experience"></span>
+                </p>
+                <p class="wrapper-input">
+                    <strong>Keahlian:</strong>
+                    <span id="preview-skills"></span>
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/dummyData.js"></script>
+</body>
+
+</html>
