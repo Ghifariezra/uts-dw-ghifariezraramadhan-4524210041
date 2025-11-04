@@ -44,7 +44,7 @@ Proyek menggunakan struktur HTML semantik:
 
 ---
 
-## 📱 Responsif Layout
+## 📱 Responsif Layout 
 
 * **Mobile First:** Layout satu kolom pada ukuran layar kecil
 * **Desktop Layout:** Dua kolom (form dan preview) menggunakan Flexbox/Grid
